@@ -11,4 +11,10 @@ L298dc(-1); //reverse
 
 L298dc(0); //stop
 
+---
 
+USAGE (stepper-motor):
+
+L298Nstep(100);
+
+L298step(-350); //350 steps reverse
