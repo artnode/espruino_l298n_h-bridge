@@ -17,6 +17,6 @@ motorDC(0); //stop
 
 USAGE (stepper-motor):
 
-L298Nstep(100);
+motorStep(100);
 
-L298step(-350); //350 steps reverse
+motorStep(-350); //350 steps reverse
