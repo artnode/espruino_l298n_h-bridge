@@ -1,7 +1,7 @@
 // MOJA 2015
 
-function L298step(mySteps){
-  var stepperPins = [C6,C7,C8,C9]; // Change these to your pins
+function motorStep(mySteps){
+  var stepperPins = [C6,C7,C8,C9]; // Change these to your pins (digital output)
   var stepBits = [0b0110,0b0101,0b1001,0b1010];
 
   if (mySteps<0) //reverse
