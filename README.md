@@ -5,11 +5,13 @@ Espruino: Driving two DC motors or one stepper motor using the l298n h-brige
 
 USAGE (DC-motor):
 
-L298dc(1); //start
+motorDC(1); //full speed
 
-L298dc(-1); //reverse
+motorDC(-1); //reverse full speed
 
-L298dc(0); //stop
+motorDC(0.5); //half speed
+
+motorDC(0); //stop
 
 ---
 
