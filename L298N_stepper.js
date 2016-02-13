@@ -1,4 +1,4 @@
-// MOJA 2015
+// MOJA 2015, 2016
 
 function motorStep(mySteps){
   var stepperPins = [C6,C7,C8,C9]; // Change these to your pins (digital output)
@@ -14,7 +14,7 @@ function motorStep(mySteps){
   {
     digitalWrite(stepperPins, stepBits[i % stepBits.length]);
     //then we need to wait before sending next command
-    wait(3);
+    wait(1); //some motors might need a longer delay
   }
 
 }
