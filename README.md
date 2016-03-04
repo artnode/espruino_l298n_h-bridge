@@ -1,6 +1,7 @@
 # espruino_l298n_h-bridge
 Espruino: Driving two DC motors or one stepper motor using the l298n h-brige
-
+---------------------------------------------------------------
+SEE WIKI FOR WIRING
 ---------------------------------------------------------------
 
 USAGE (DC-motor):
